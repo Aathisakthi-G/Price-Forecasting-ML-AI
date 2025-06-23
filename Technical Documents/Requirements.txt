@@ -1,0 +1,38 @@
+1. Architecture:
+        - Draw.io
+2. Environment Creation:
+        - Create one folder 
+        - Open command Prompt
+        - Change the Directory to created folder
+        - conda create --prefix ./{Environmentname without space} python=3.11.11
+        - conda acivate {created Environment}
+
+3. Install Required Libraries
+# Basic libraries
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.1
+seaborn==0.13.2
+
+# Time series analysis
+statsmodels==0.14.2
+scipy==1.14.1
+pmdarima==2.0.4
+# Machine learning
+scikit-learn==1.5.1
+
+# Plotting and visualization
+plotly==5.24.1
+
+# Jupyter Notebook
+jupyter==1.0.0
+
+# Database connection
+sqlalchemy==2.0.34
+
+# Additional libraries used in the project
+dtale==3.14.1
+pymysql==1.1.1
+
+# Hyperparameter Tuning
+optuna==4.2.1
